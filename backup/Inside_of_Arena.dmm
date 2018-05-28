@@ -1,0 +1,30 @@
+"a" = (/turf/Wall,/area)
+"b" = (/turf/Tile,/area)
+"c" = (/obj/Skeleton,/turf/Tile,/area)
+"d" = (/obj/DarkKnight,/turf/Tile,/area)
+"e" = (/turf/Rug1,/area)
+"f" = (/turf,/area)
+"g" = (/turf/Start,/area)
+
+(1,1,1) = {"
+aaaaaaaabcbaaaaaaaaa
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+bbbbbbbbbbbbbbbbbbbb
+dbbbbbebbbebbbbbbbbd
+bbbbbbbbbbbbbbbbbbbb
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbebbbebbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbfbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+aaaaaaaabgbaaaaaaaaa
+"}

@@ -1,0 +1,19 @@
+// BEGIN_INTERNALS
+/*
+LAST_COMPILE_TIME: 1527473056
+DIR: Map_resources Lib 
+PACKAGE_RSC_NAME: C:\Users\thequ\Desktop\GDK_Game\Arena Gladiator\Arena Gladiator_rsc.zip
+AUTO_FILE_DIR: ON
+PACKAGE_DMB_INFO: 
+MAP_ICON_TYPE: 0
+PACKAGE_DME_NAME: C:\Users\thequ\Desktop\GDK_Game\Arena Gladiator\Arena Gladiator_src.zip
+LAST_COMPILE_VERSION: 511.1385
+PACKAGE_TYPE: 0
+PACKAGE_DME_START: 
+WINDOW: Arena Gladiator.dm;Map_resources\Enviroment.dm;Enviroment.dm;Areas.dm;Outside_Of_Arena.dmm;start.dmi;Inside_of_Arena.dmm
+PACKAGE_DME_INFO: 
+FILE: Enviroment.dm
+PACKAGE_DMB_NAME: C:\Users\thequ\Desktop\GDK_Game\Arena Gladiator\Arena Gladiator.zip
+PACKAGE_DME_DEMO: 
+*/
+// END_INTERNALS

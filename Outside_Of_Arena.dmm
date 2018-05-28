@@ -1,0 +1,45 @@
+"a" = (/turf/Grass,/turf/Tree,/area/Outside_Of_Arena)
+"b" = (/turf/Grass,/area/Outside_Of_Arena)
+"c" = (/turf/Water,/area/Outside_Of_Arena)
+"d" = (/turf/Grass,/turf/Pine,/area/Outside_Of_Arena)
+"e" = (/turf/Grass,/turf/House,/area/Outside_Of_Arena)
+"f" = (/mob/Boy,/turf/Grass,/area/Outside_Of_Arena)
+"g" = (/mob/Girl,/turf/Grass,/area/Outside_Of_Arena)
+"h" = (/turf/Grass,/turf/Castle,/area/Outside_Of_Arena)
+"i" = (/turf/Remove,/turf/NetherBrick,/area/Outside_Of_Arena)
+"j" = (/turf/NetherBrick,/area/Outside_Of_Arena)
+"k" = (/turf/Remove,/area/Remove)
+"l" = (/turf/Start,/area/Outside_Of_Arena)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bcccccccccccccccccccccccccccca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acdebdbbbbbbbbbbbbbbbbbbdebdca
+acbffbbbbbbbbbbbbbbbbbbbbggbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbddhbbbbbbbbbbbddbbbbbca
+acbbbbbbbbbbbbiibbbbbbbbbbbbca
+acbbbbbbbbbbbbjjbbbbbbbbbbbbca
+acbbbbbbbbbbbbjjbbbbbbbbbbbbca
+acbbbbbbbbbbbbjjbbbbbbbbbbbbca
+acbbbbbbbbbbbbjjbbbbbbbbbbbbca
+acbbbbbbbbkbbbjjbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acbbbbbbbbbbbbbbbbbbbbbbbbbbca
+acdebdbbbbbbbbbbbbbbbbbbdebdca
+acbggbbbbbbbbbbbbbbbbbbbbffbca
+aclbbbbbbbbbbbbbbbbbbbbbbbbbca
+acccccccccccccccccccccccccccca
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
