@@ -17,7 +17,6 @@ turf
 		density=1
 	Castle
 		icon = 'Castle.dmi'
-		density =1
 	Pine
 		icon = 'Pine.dmi'
 		density=1
@@ -30,28 +29,29 @@ turf
 		icon = 'Tile.dmi'
 	Rug1
 		icon = 'Rug1.dmi'
-	Start //This is used to set the position of our player
-		icon = 'start.dmi'
-	Remove
-
-
+	PotPlant1
+		icon = 'PotPlant1.dmi'
+		density=1
+	RedstoneTorch
+		icon = 'RedstoneTorch.dmi'
+		density=1
 mob
 	Boy
 		icon = 'PlayerSpriteM.dmi'
-		gender = "male"
-
 	Girl
 		icon = 'PlayerSpriteF.dmi'
-		gender = "female"
-	Login()
-		loc = locate(/turf/Start)
+
+obj
+	Girl
+		icon = 'PlayerSpriteF.dmi'
+		density=1
+	Boy
+		icon = 'PlayerSpriteM.dmi'
+		density=1
 	DarkKnight
 		icon = 'DarkKnight.dmi'
 		density=1
 	Skeleton
 		icon = 'Skeleton.dmi'
 		density=1
-	Remove
-
-obj
 

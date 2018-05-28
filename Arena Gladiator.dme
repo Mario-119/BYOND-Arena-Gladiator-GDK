@@ -7,7 +7,6 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
-#define FILE_DIR "Map_resources"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
@@ -20,10 +19,9 @@
 #include "Enviroment.dm"
 #include "Inventory.dm"
 #include "Level_Teleporter.dm"
-#include "Music_Playing.dm"
 #include "Player.dm"
-#include "Scripts.dm"
 #include "Shop.dm"
 #include "Inside_of_Arena.dmm"
+#include "Outside_Of_Arena.dmm"
 // END_INCLUDE
 
