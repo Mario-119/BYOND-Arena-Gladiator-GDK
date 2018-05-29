@@ -1,15 +1,18 @@
 #include "Debug.dm"
 mob
 	//Our base stats, will be modified later.
-	var/arena_tickets = 0
-	var/HP = 5
-	var/MP = 5
-	var/Level = 5
-	var/Accuracy = 60
-	var/Damage = 5
-	var/special_Attack = 50
-	var/special_Meter = 0
-	var/Pierce = 0
-	var/Resist = 10
+	mob/var
+		arena_tickets = 0
+		Exp = 0
+		HP = 5
+		MP = 5
+		Level = 0
+		Accuracy = 60
+		Damage = 5
+		special_Attack = 50
+		special_Meter = 0
+		Pierce = 0
+		Resist = 10
+		Next_exp = 100
 	icon = 'PlayerSpriteM.dmi'
 

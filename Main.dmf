@@ -1,0 +1,194 @@
+macro "Talk"
+	elem 
+		name = "Return"
+		command = "talk"
+
+macro "macro"
+	elem 
+		name = "North+REP"
+		command = ".north"
+	elem 
+		name = "South+REP"
+		command = ".south"
+	elem 
+		name = "East+REP"
+		command = ".east"
+	elem 
+		name = "West+REP"
+		command = ".west"
+	elem 
+		name = "Northeast+REP"
+		command = ".northeast"
+	elem 
+		name = "Northwest+REP"
+		command = ".northwest"
+	elem 
+		name = "Southeast+REP"
+		command = ".southeast"
+	elem 
+		name = "Southwest+REP"
+		command = ".southwest"
+	elem 
+		name = "Center+REP"
+		command = ".center"
+
+
+menu "Menu1"
+
+menu "menu"
+	elem 
+		name = "&Quit"
+		command = ".quit"
+		category = "&File"
+		saved-params = "is-checked"
+
+menu "menu1"
+
+
+window "General-Game"
+	elem "General-Game"
+		type = MAIN
+		pos = 281,0
+		size = 640x498
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Arena Gladiator"
+	elem "bar2"
+		type = BAR
+		pos = 540,8
+		size = 100x10
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		saved-params = ""
+		is-slider = false
+		dir = east
+	elem "HP"
+		type = LABEL
+		pos = 504,0
+		size = 40x24
+		anchor1 = none
+		anchor2 = none
+		font-size = 12
+		background-color = none
+		saved-params = ""
+		text = "HP:"
+	elem "bar1"
+		type = BAR
+		pos = 144,128
+		size = 100x10
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		saved-params = ""
+		is-slider = false
+		dir = east
+	elem "MainMap"
+		type = MAP
+		pos = 0,0
+		size = 504x496
+		anchor1 = 0,0
+		anchor2 = 100,100
+		is-default = true
+		saved-params = "zoom;letterbox;zoom-mode"
+
+window "Main-Menu"
+	elem "Main-Menu"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		is-default = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Arena Gladiator"
+		icon = 'DarkKnight.dmi'
+	elem "Quit_Game"
+		type = BUTTON
+		pos = 176,272
+		size = 232x88
+		anchor1 = none
+		anchor2 = none
+		font-size = 12
+		background-color = none
+		saved-params = "is-checked"
+		text = "Quit Game"
+		command = ".quit"
+	elem "Load_Game"
+		type = BUTTON
+		pos = 184,152
+		size = 212x80
+		anchor1 = none
+		anchor2 = none
+		font-size = 12
+		background-color = none
+		saved-params = "is-checked"
+		text = "Load Game"
+		command = ""
+	elem "New_Game"
+		type = BUTTON
+		pos = 184,24
+		size = 208x88
+		anchor1 = none
+		anchor2 = none
+		font-size = 12
+		background-color = none
+		is-default = true
+		saved-params = "is-checked"
+		text = "New Game"
+		command = "openSelect"
+
+window "Select"
+	elem "Select"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+	elem "button2"
+		type = BUTTON
+		pos = 320,164
+		size = 176x68
+		anchor1 = none
+		anchor2 = none
+		font-size = 12
+		background-color = none
+		saved-params = "is-checked"
+		text = "Girl"
+		command = ""
+	elem "button1"
+		type = BUTTON
+		pos = 64,168
+		size = 152x56
+		anchor1 = none
+		anchor2 = none
+		font-size = 12
+		background-color = none
+		saved-params = "is-checked"
+		text = "Boy"
+		command = "openGeneral"
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		macro = "macro"
+		menu = "menu"
+

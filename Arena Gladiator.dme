@@ -17,13 +17,16 @@
 // BEGIN_INCLUDE
 #include "Areas.dm"
 #include "Arena Gladiator.dm"
+#include "commands.dm"
 #include "Enviroment.dm"
 #include "Inventory.dm"
 #include "Level_Teleporter.dm"
+#include "leveling_test.dm"
 #include "Music_Playing.dm"
 #include "Player.dm"
 #include "Scripts.dm"
 #include "Shop.dm"
+#include "Main.dmf"
 #include "Inside_of_Arena.dmm"
 // END_INCLUDE
 

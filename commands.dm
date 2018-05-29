@@ -1,0 +1,6 @@
+mob/verb/openSelect()
+			winshow(src, "Main-Menu", 0)
+			winshow(src, "Select", 1)
+mob/verb/openGeneral()
+			winshow(src, "Select", 0)
+			winshow(src, "General-Game", 1)
